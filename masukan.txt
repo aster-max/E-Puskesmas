@@ -1,0 +1,8 @@
+luarbiasa makan ayam
+kamu
+
+
+You may also use the ed command to do in-file search and replace:
+
+# delete all lines matching foobar 
+ed -s test.txt <<< $'g/foobar/d\nw'
